@@ -1,0 +1,19 @@
+{ "name": "avalokitesvara-sftp",
+  "version": "0.5.5",
+  "author": "Justin Li <termanli2017@163.com>",
+  "description": "a sftp operation service which provide capability to traverses a remote sftp server and get/put file from/to it",
+  "main": "./lib/server.js",
+  "engines": { "node": ">=0.10.0" },
+  "dependencies": {
+    "ssh2": ">=0.5.5"
+  },
+  "devDependencies": {
+    "semver": "^5.1.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [ "sftp", "avalokitesvara", "rule", "traverse" ],
+  "licenses": [ { "type": "Apache License", "url": "https://github.com/termanli/avalokitesvara-sftp/blob/master/LICENSE" } ],
+  "repository" : { "type": "git", "url": "https://github.com/termanli/avalokitesvara-sftp.git" }
+}

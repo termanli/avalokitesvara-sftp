@@ -56,4 +56,6 @@ typings/
 
 # dotenv environment variables file
 .env
-
+.vscode
+avalokitesvara-sftp.sublime-project
+avalokitesvara-sftp.sublime-workspace
